@@ -1,7 +1,7 @@
 %define		apxs		/usr/sbin/apxs
 Summary:	mod_admserv - communication link between Console and Directory
 Summary(pl):	mod_admserv - po³±czenie komunikacyjne miêdzy konsol± a katalogiem
-Name:		mod_admserv
+Name:		apache-mod_admserv
 Version:	1.0.3
 Release:	0.1
 License:	Apache 2.0
@@ -34,7 +34,7 @@ administracyjnego wymagan± przez us³ugi Fedora Admin Server i Fedora
 Directory Server.
 
 %prep
-%setup -q
+%setup -q -n mod_admserv-%{version}
 
 %build
 # apr-util is missing in configure check
