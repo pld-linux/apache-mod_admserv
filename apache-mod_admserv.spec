@@ -11,8 +11,8 @@ Source0:	http://directory.fedora.redhat.com/sources/mod_admserv-%{version}.tar.g
 URL:		http://directory.fedora.redhat.com/wiki/Mod_admserv
 BuildRequires:	%{apxs}
 BuildRequires:	apache-devel >= 2.0
-BuildRequires:	apr-devel >= 1.0
-BuildRequires:	apr-util-devel >= 1.0
+BuildRequires:	apr-devel >= 1:1.0
+BuildRequires:	apr-util-devel >= 1:1.0
 BuildRequires:	fedora-adminutil-devel >= 1.0
 BuildRequires:	libicu-devel
 BuildRequires:	mozldap-devel >= 5.0
