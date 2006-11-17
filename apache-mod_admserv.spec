@@ -18,7 +18,7 @@ BuildRequires:	libicu-devel
 BuildRequires:	mozldap-devel >= 5.0
 BuildRequires:	nspr-devel
 BuildRequires:	nss-devel
-Requires:	apache >= 2.0
+Requires:	apache(modules-api) = %apache_modules_api
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_pkglibdir	%(%{apxs} -q LIBEXECDIR 2>/dev/null)
