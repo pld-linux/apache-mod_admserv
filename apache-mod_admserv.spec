@@ -1,6 +1,6 @@
 %define		apxs		/usr/sbin/apxs
 Summary:	mod_admserv - communication link between Console and Directory
-Summary(pl):	mod_admserv - po³±czenie komunikacyjne miêdzy konsol± a katalogiem
+Summary(pl.UTF-8):   mod_admserv - poÅ‚Ä…czenie komunikacyjne miÄ™dzy konsolÄ… a katalogiem
 Name:		apache-mod_admserv
 Version:	1.0.3
 Release:	0.1
@@ -28,9 +28,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 An Apache 2.0 module for implementing the admin server functionality
 required by Fedora Admin Server and Directory Server.
 
-%description -l pl
-Modu³ Apache'a 2.0 implementuj±cy funkcjonalno¶æ serwera
-administracyjnego wymagan± przez us³ugi Fedora Admin Server i Fedora
+%description -l pl.UTF-8
+ModuÅ‚ Apache'a 2.0 implementujÄ…cy funkcjonalnoÅ›Ä‡ serwera
+administracyjnego wymaganÄ… przez usÅ‚ugi Fedora Admin Server i Fedora
 Directory Server.
 
 %prep
