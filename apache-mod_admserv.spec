@@ -1,6 +1,6 @@
 %define		apxs		/usr/sbin/apxs
 Summary:	mod_admserv - communication link between Console and Directory
-Summary(pl.UTF-8):   mod_admserv - połączenie komunikacyjne między konsolą a katalogiem
+Summary(pl.UTF-8):	mod_admserv - połączenie komunikacyjne między konsolą a katalogiem
 Name:		apache-mod_admserv
 Version:	1.0.3
 Release:	0.1
