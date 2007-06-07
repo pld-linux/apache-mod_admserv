@@ -9,7 +9,7 @@ Group:		Networking/Daemons
 Source0:	http://directory.fedora.redhat.com/sources/mod_admserv-%{version}.tar.gz
 # Source0-md5:	793416e0a82b7e7bec42ddaa609e88d9
 URL:		http://directory.fedora.redhat.com/wiki/Mod_admserv
-BuildRequires:	%{apxs}
+BuildRequires:	apache-apxs >= 2.0
 BuildRequires:	apache-devel >= 2.0
 BuildRequires:	apr-devel >= 1:1.0
 BuildRequires:	apr-util-devel >= 1:1.0
