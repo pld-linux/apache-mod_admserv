@@ -5,7 +5,7 @@ Name:		apache-mod_admserv
 Version:	1.0.3
 Release:	0.1
 License:	Apache 2.0
-Group:		Networking/Daemons
+Group:		Networking/Daemons/HTTP
 Source0:	http://directory.fedora.redhat.com/sources/mod_admserv-%{version}.tar.gz
 # Source0-md5:	793416e0a82b7e7bec42ddaa609e88d9
 URL:		http://directory.fedora.redhat.com/wiki/Mod_admserv
